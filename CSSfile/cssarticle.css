@@ -1,0 +1,111 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: rgb(190, 190, 190);
+  color: 0;;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+}
+
+ul.menu{
+  display: flex;
+  list-style: none;
+}
+ul.menu li{
+  margin-left: 1rem;
+  
+}
+
+ul.menu li a:hover{
+  
+  color: rgb(255, 255, 255);
+  background-color: black;
+  
+}
+ul.menu li a{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.5rem 0.5rem; 
+  display: inline-block;
+  text-decoration: none;
+}
+.agv a{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.5rem 0.5rem; 
+  display: inline-block;
+  text-decoration: none;
+}
+.agv a:hover{
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+
+
+header{
+  overflow: hidden;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+body{
+  font-family: Kanit;
+}
+
+
+
+.header-one h1{
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: Kanit;
+  
+}
+.header-one p{
+  color: black;
+  font-family: Kanit;
+}
+
+main{
+  
+ max-width: 700px;
+ margin: auto;
+ 
+}
+
+
+
+
+footer{
+  background-color: rgb(190, 190, 190);
+  padding: 1rem;
+  text-align: center;
+  margin-top: 3.2rem
+}
+footer a{
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0.5rem 0.5rem; 
+  display: inline-block;
+  text-decoration: none; 
+  margin-left: 0.5rem;
+}
+footer a:hover{
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+

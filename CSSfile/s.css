@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+ul.menu{
+  display: flex;
+  list-style: none;
+}
+ul.menu li{
+  margin-left: 1rem;
+}
+
+ul.menu li a:hover{
+  
+  color: rgb(255, 255, 255);
+  background-color: black;
+  
+}
+ul.menu li a{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.5rem 0.5rem; 
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+header{
+  overflow: hidden;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1548611716-3000815a5803?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+body, html {
+  height: 100%;
+  font-family: Kanit;
+}
+
+
+.header-one{
+  margin-top: 18rem;
+  margin-left:34rem;
+
+}
+.header-one h1{
+  font-size: 2.5rem;
+  color: white;
+  }
+.header-one p{
+  margin: 0.5rem 0;
+  line-height: 1;
+}
+.header-one a{
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0.5rem 0.5rem; 
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 0.5rem; 
+  
+}
+.header-one a:hover{
+  border: 1px solid rgb(255, 242, 242);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+a{
+  font-family: Kanit;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+/***************************************************************/
+
+div {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+
+
+div:last-of-type {
+  width: 0px;
+  animation: reveal 5s infinite;
+}
+
+div:last-of-type span {
+  margin-left:0px;
+  animation: slidein 5s infinite;
+}
+
+@keyframes showup {
+  0% {opacity:0;}
+  20% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@keyframes slidein {
+  0% { margin-left:-200px; }
+  20% { margin-left:-200px; }
+  35% { margin-left:0px; }
+  100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+  0% {opacity:0;width:0px;}
+  20% {opacity:1;width:0px;}
+  30% {width: 250px;}
+  80% {opacity:1;}
+  100% {opacity:0;width:250px;}
+}
+
+
+
+
+/*footer{
+  background-color: rgb(190, 190, 190);
+  padding: 1rem;
+  text-align: center;
+}
+footer a{
+  color: black;
+  text-decoration: none;
+}
+
